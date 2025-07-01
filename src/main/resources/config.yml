@@ -1,0 +1,39 @@
+language: "ru" # "ru" or "en"
+
+default_unit: "kmh" # Единица по умолчанию (например, kmh, mph, ms)
+default_topspeed_display_unit: "kmh" #  Единица по умолчанию для отображения топа
+
+speed_units:
+  ms: # Метры в секунду
+    enabled: true
+    multiplier: 1.0
+    display_name_key: "unit_ms"
+    color_thresholds:
+      green: 2.8
+      yellow: 5.5
+  
+  kmh: # Километры в час
+    enabled: true
+    multiplier: 3.6
+    display_name_key: "unit_kmh"
+    color_thresholds:
+      green: 10.0
+      yellow: 20.0
+      
+  mph: # Мили в час
+    enabled: true
+    multiplier: 2.23694
+    display_name_key: "unit_mph"
+    color_thresholds:
+      green: 6.21
+      yellow: 12.42
+
+subcommands:
+  enable: "on"
+  disable: "off"
+  toggle_unit: "unit"
+  reload: "reload"
+  help: "help"
+  startrecordspeed: "startrecordspeed"
+  topspeed: "topspeed"
+  toptoggleunit: "toptoggleunit" 

@@ -1,0 +1,46 @@
+# English language
+command_prefix: "&7[&aSpeedHUD&7]"
+messages:
+  plugin_enabled: "%prefix% &aPlugin enabled!"
+  plugin_disabled: "%prefix% &cPlugin disabled."
+  command_not_found_in_yml: "Command 'speedhud' not defined in plugin.yml. Please check your plugin.yml file."
+
+  hud_enabled: "%prefix% &aSpeed HUD enabled."
+  hud_disabled: "%prefix% &cSpeed HUD disabled."
+  unit_changed: "%prefix% &eSpeed unit changed to &b%unit%&e."
+  config_updated: "%prefix% &aConfiguration reloaded."
+  plugin_reloading: "%prefix% &eReloading configuration..."
+  no_permission: "%prefix% &cYou do not have permission for this command."
+  no_console_player_command: "&cOnly players can use this command."
+  unknown_subcommand: "%prefix% &cUnknown subcommand. Use &e/%label% %help% &cfor help."
+
+  unit_ms: "m/s"
+  unit_kmh: "km/h"
+  unit_mph: "mph"
+
+  help_header: "&8----- &6SpeedHUD Help &8-----"
+  help_enable: "&e/%label% %enable% &7- Enable speed HUD."
+  help_disable: "&e/%label% %disable% &7- Disable speed HUD."
+  help_unit: "&e/%label% %unit% &7- Toggle speed unit."
+  help_reload: "&e/%label% %reload% &7- Reload plugin configuration."
+  help_help: "&e/%label% %help% &7- Show this help message."
+  help_startrecordspeed: "&e/%label% %startrecordspeed% &7- Start recording max speed (10 sec)."
+  help_topspeed: "&e/%label% %topspeed% &7- Show top speeds."
+  help_toptoggleunit: "&e/%label% %toptoggleunit% &7- Toggle unit for top speed display." # NEW
+
+  start_record_player_only: "%prefix% &cOnly players can record speed."
+  start_record_already_recording: "%prefix% &cYou are already recording speed."
+  start_record_started: "%prefix% &aSpeed recording started! (10 seconds)"
+  start_record_finished: "%prefix% &aRecording finished! Your max speed: &b%speed% %unit%&a."
+  topspeed_file_creation_failed: "Failed to create topspeed.yml file!"
+  topspeed_file_save_failed: "Failed to save topspeed.yml file!"
+  topspeed_no_data: "%prefix% &7No top speeds recorded yet."
+  topspeed_header: "&8----- &6Top Speeds &8-----"
+  topspeed_entry: "&e#%rank%. &b%player%&f: &a%speed% %unit%"
+
+  topspeed_unit_changed: "%prefix% &eTop speed display unit changed to &b%unit%&e." # NEW
+  topspeed_no_available_units: "No available units for top speed display." # NEW
+
+  hud_display: "Speed: "
+
+  no_available_units: "No available units to switch to."

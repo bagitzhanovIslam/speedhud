@@ -1,0 +1,46 @@
+# Русский язык
+command_prefix: "&7[&aSpeedHUD&7]"
+messages:
+  plugin_enabled: "%prefix% &aПлагин включен!"
+  plugin_disabled: "%prefix% &cПлагин выключен."
+  command_not_found_in_yml: "Команда 'speedhud' не определена в plugin.yml. Проверьте ваш файл plugin.yml."
+
+  hud_enabled: "%prefix% &aHUD скорости включен."
+  hud_disabled: "%prefix% &cHUD скорости выключен."
+  unit_changed: "%prefix% &eЕдиница измерения изменена на &b%unit%&e."
+  config_updated: "%prefix% &aКонфигурация перезагружена."
+  plugin_reloading: "%prefix% &eПерезагрузка конфигурации..."
+  no_permission: "%prefix% &cУ вас нет разрешения на эту команду."
+  no_console_player_command: "&cЭту команду могут использовать только игроки."
+  unknown_subcommand: "%prefix% &cНеизвестная подкоманда. Используйте &e/%label% %help% &cдля помощи."
+
+  unit_ms: "м/с"
+  unit_kmh: "км/ч"
+  unit_mph: "миль/ч"
+
+  help_header: "&8----- &6SpeedHUD Помощь &8-----"
+  help_enable: "&e/%label% %enable% &7- Включить HUD скорости."
+  help_disable: "&e/%label% %disable% &7- Выключить HUD скорости."
+  help_unit: "&e/%label% %unit% &7- Переключить единицу измерения скорости."
+  help_reload: "&e/%label% %reload% &7- Перезагрузить конфигурацию плагина."
+  help_help: "&e/%label% %help% &7- Показать это сообщение помощи."
+  help_startrecordspeed: "&e/%label% %startrecordspeed% &7- Начать запись максимальной скорости (10 сек)."
+  help_topspeed: "&e/%label% %topspeed% &7- Показать топ скоростей."
+  help_toptoggleunit: "&e/%label% %toptoggleunit% &7- Переключить единицу измерения для отображения топа." # НОВОЕ
+
+  start_record_player_only: "%prefix% &cТолько игроки могут записывать скорость."
+  start_record_already_recording: "%prefix% &cВы уже записываете скорость."
+  start_record_started: "%prefix% &aЗапись скорости началась! (10 секунд)"
+  start_record_finished: "%prefix% &aЗапись завершена! Ваша максимальная скорость: &b%speed% %unit%&a."
+  topspeed_file_creation_failed: "Не удалось создать файл topspeed.yml!"
+  topspeed_file_save_failed: "Не удалось сохранить файл topspeed.yml!"
+  topspeed_no_data: "%prefix% &7Нет записанных максимальных скоростей."
+  topspeed_header: "&8----- &6Топ Скоростей &8-----"
+  topspeed_entry: "&e#%rank%. &b%player%&f: &a%speed% %unit%"
+
+  topspeed_unit_changed: "%prefix% &eЕдиница измерения топа скоростей изменена на &b%unit%&e." # НОВОЕ
+  topspeed_no_available_units: "Нет доступных единиц измерения для отображения топа." # НОВОЕ
+
+  hud_display: "Скорость: "
+
+  no_available_units: "Нет доступных единиц измерения для переключения."

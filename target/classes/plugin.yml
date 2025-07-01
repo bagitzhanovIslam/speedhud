@@ -1,0 +1,30 @@
+name: SpeedHUD
+version: 1.4
+main: k0k0ska.speedhud.SpeedDisplayHUD
+api-version: 1.16
+commands:
+  speedhud:
+    description: Управление HUD отображением скорости.
+    usage: /<command> [on|off|unit|reload|help|startrecordspeed|topspeed|toptoggleunit]
+    aliases: [sh, spd]
+    permission: speedhud.use
+    permission-message: У вас нет разрешения на использование этой команды.
+permissions:
+  speedhud.use:
+    description: Разрешает игрокам использовать команду /speedhud.
+    default: true
+  speedhud.toggle:
+    description: Разрешает игрокам включать/выключать их HUD.
+    default: true
+  speedhud.reload:
+    description: Разрешает игрокам перезагружать конфигурацию плагина.
+    default: op
+  speedhud.startrecordspeed:
+    description: Разрешает игрокам начинать запись своей максимальной скорости.
+    default: true
+  speedhud.topspeed:
+    description: Разрешает игрокам просматривать записанные максимальные скорости.
+    default: true
+  speedhud.toptoggleunit:
+    description: Разрешает игрокам переключать единицу измерения для отображения топа скоростей.
+    default: true
